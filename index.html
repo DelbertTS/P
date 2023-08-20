@@ -1,52 +1,97 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .hero{
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url("./Jjjjjjjjjjj.png");
-    height: 70vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-    </style>
-  </head>
-  <body>
-   <div class="container-fluid">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .no-padding {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .hero {
+      background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url("./Jjjjjjjjjjj.png");
+      height: 70vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-text {
+      text-align: center;
+      color: white;
+    }
+
+    .hero-text h1 {
+      font-size: 4em;
+      text-shadow: 4px 4px black;
+    }
+
+    /* FOOTER */
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+    
+    .footer-container {
+      flex: 1;
+      color: white;
+      background-color: #5AB68A;
+      padding: 1vh 1rem;
+      text-align: center;
+    }
+
+    .footer-container h2 {
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid no-padding">
     <div class="row">
-        <div class="col-">
-            <nav class="navbar" style="background-color: #5AB68A;">
-                <div class="container-fluid d-flex justify-content-start">
-                  <a class="navbar-brand" href="#">
-                    <img style="object-fit: cover;" src="./download_1-removebg-preview (1).png" alt="Logo" width="50" height="34" class="d-inline-block align-text-top">
-                      Welcome,
-                  </a>
-                </div>
-              </nav>
-        </div>
+      <div class="col-">
+        <nav class="navbar" style="background-color: #5AB68A;">
+          <div class="container-fluid d-flex justify-content-start">
+            <a class="navbar-brand" href="#">
+              <img style="object-fit: cover;" src="./download_1-removebg-preview (1).png" alt="Logo" width="50" height="34" class="d-inline-block align-text-top">
+              Welcome,
+            </a>
+          </div>
+        </nav>
+      </div>
     </div>
-   </div>
-   <div class="container-fluid">
+  </div>
+  <div class="container-fluid no-padding">
     <div class="hero">
-      
+      <div class="hero-text">
+        <h1>Peminjaman Tempat</h1>
+      </div>
     </div>
+  </div>
+
+  <div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus dolores recusandae modi cumque minima commodi quis aspernatur iure illum veniam, dolor nulla ducimus reiciendis corrupti esse, veritatis odit. Eius labore deleniti quae sapiente provident facere porro, expedita iste delectus ratione fugit! Eius dicta fugiat blanditiis harum consequuntur illum aliquid, provident consectetur necessitatibus minus nam sed aperiam at delectus aspernatur quisquam nemo quam ex eos laudantium numquam. Accusamus perferendis vitae fugit expedita ipsam illo aspernatur commodi, eligendi voluptatum dolorum dolorem nobis id unde a tenetur, vel voluptate distinctio nemo assumenda porro suscipit odit quidem. Ullam, at praesentium commodi hic odit architecto harum error nostrum ratione vero saepe eum consequuntur et corporis cumque, velit esse rem excepturi deserunt voluptatem impedit itaque. Dolores pariatur possimus quia atque eveniet velit provident nesciunt asperiores nulla, dolor expedita itaque nemo, ullam inventore mollitia reprehenderit quisquam laudantium modi cum iure rerum. Dolorem ab eos excepturi quia expedita omnis dicta doloribus magnam, vel, consectetur numquam? Totam minima quis qui saepe cumque, neque animi obcaecati dicta quos vero alias aliquid a accusamus, itaque id iure architecto? Dolores quasi tempora reprehenderit in perferendis sit dolorem odit qui explicabo laboriosam aut totam reiciendis labore enim sequi nisi ipsa suscipit tempore, autem nam! Molestiae labore cumque possimus. Recusandae temporibus blanditiis reprehenderit non saepe eaque placeat omnis ipsa, quibusdam ex quaerat nemo qui autem nesciunt aliquid officiis odit excepturi! Ad, eos aliquid ea ipsa perspiciatis excepturi dolorem dignissimos eaque recusandae quod necessitatibus reprehenderit? Totam vel in eum vero optio praesentium quia ipsam, voluptatum et natus voluptate enim unde aspernatur odio molestias cumque accusantium ipsum placeat dignissimos aperiam illo doloremque molestiae impedit! Perferendis molestiae vel, quam sed ab repellat aut, beatae quia consequatur cupiditate unde exercitationem doloremque, enim rerum accusantium asperiores hic quo fuga iusto ipsum esse aperiam facilis. Pariatur corrupti excepturi ratione facere, expedita eius quos veritatis fugiat laboriosam necessitatibus, ducimus itaque! Placeat nam voluptatibus tempora nostrum sed ullam animi doloremque, facilis aperiam veniam? Commodi modi delectus voluptates ipsa ut sint dolor rem, soluta inventore corrupti odit sed fugit, totam quidem ipsum placeat dolorum magni unde amet quod. Nihil rem, doloremque nemo consequatur tempore doloribus. Officiis laboriosam commodi sint? Autem ex inventore nostrum optio perspiciatis sapiente eaque est pariatur, eos tempora quos fugit, dolores, vero accusamus. Accusamus voluptate laudantium quidem placeat corporis odit earum. Laudantium culpa maxime illum, placeat est eligendi beatae minima qui deserunt, eius similique, asperiores non repellat perferendis odio nemo quasi modi quam animi molestias. Doloremque quis ipsum ducimus quos eos! Aliquid nulla itaque tenetur error voluptate beatae saepe! Eos inventore laudantium aspernatur odio quos, repellendus quasi, accusantium nulla, ducimus culpa possimus consequuntur veniam. Sit qui minima blanditiis incidunt, voluptates deleniti aut ratione! Blanditiis voluptate sed illo repudiandae corporis, modi fuga optio doloremque nam soluta libero enim ratione. Quo asperiores assumenda obcaecati corporis eaque! Vitae eveniet, aliquid, minus rem perferendis cumque quibusdam sint veritatis labore quis fugit impedit ipsa placeat, explicabo molestiae voluptatum maiores culpa provident quidem obcaecati neque fugiat velit? A enim consequuntur labore perspiciatis nam rerum aperiam qui fugit tenetur nulla numquam suscipit nesciunt assumenda amet voluptates, ducimus quaerat temporibus animi hic veritatis beatae ratione consectetur officiis vero! Nihil, reprehenderit iure rerum exercitationem dicta fuga esse unde minima deleniti inventore enim, illo suscipit dolores atque! Earum, obcaecati est eligendi fugiat animi ut ex et maxime ducimus itaque culpa reprehenderit quas, illum repellat? Quod nisi, quia ipsum itaque recusandae consequatur eum dolor? Eos quam maxime repudiandae, explicabo necessitatibus tenetur quis totam eaque deserunt tempora consectetur enim distinctio tempore reprehenderit quia accusamus sint. Ut laborum exercitationem voluptatem voluptatibus reprehenderit, quae, praesentium est, libero sed necessitatibus eveniet quas rerum. Numquam voluptate beatae, architecto quis aut magnam vel voluptates quod rerum fugit provident quia natus recusandae debitis porro saepe magni eos reprehenderit esse pariatur qui ullam. Velit accusantium delectus voluptatem aut quam excepturi fugiat quidem. Unde tempora vitae sunt deleniti voluptates maiores minus dicta quis neque fugiat enim nostrum quam ex vel veniam temporibus molestias, voluptas quidem in quia natus necessitatibus ea nobis. Dolore dolores, officia quidem laborum nostrum veritatis amet ex sapiente nihil voluptates debitis cupiditate dolorem quia enim, facilis eos. Sed, harum dicta maiores optio cum adipisci voluptate accusamus iste perspiciatis! Possimus officia sapiente placeat sint, dolorem magnam, excepturi necessitatibus minus incidunt praesentium ea. Dolores quibusdam ipsam possimus repellat sint incidunt eius iusto ab dolor deleniti doloribus ipsa magni quidem repellendus officiis, modi sapiente nam culpa rerum similique. Porro, totam eum nostrum recusandae laboriosam nisi fugiat, necessitatibus eligendi corrupti, quam minima? Sunt rem cupiditate, sed, odio voluptatum quam, doloribus sequi iusto nam quos iure autem tempore itaque optio. Blanditiis pariatur error explicabo doloremque, magni adipisci a eaque hic voluptas enim laboriosam nam quidem est ipsam porro corrupti animi vel, ad similique. Itaque molestiae inventore ducimus delectus ex, provident aliquam quidem nihil. Quae aut laboriosam doloremque corporis eveniet quaerat dignissimos error nemo dolorum. Dolorum tempora aliquid a minus exercitationem harum veritatis voluptas hic rerum quas odit consequatur incidunt consequuntur aperiam labore ut eius qui repudiandae, placeat accusantium rem quo sed. Nesciunt id facere deserunt consequuntur provident ipsum eius, iusto rerum doloribus distinctio excepturi hic delectus! Dicta libero, doloremque pariatur harum quo ad nobis saepe. Quis, totam natus! Rerum possimus dolores impedit maiores qui doloremque blanditiis beatae culpa fugiat fuga aspernatur autem suscipit, quos, maxime porro laudantium delectus quo quia? Placeat, illum autem velit animi quidem id aperiam necessitatibus, amet corrupti vitae fugiat et facilis quas cupiditate quaerat voluptatum, repellendus omnis explicabo at soluta! Rem a nobis, illo voluptatem dignissimos ex aliquam nihil nemo blanditiis reprehenderit ab nisi, laborum labore, quas qui adipisci? Sunt quibusdam ducimus quas recusandae quisquam at assumenda! Optio, consequuntur neque necessitatibus saepe facilis sit quas numquam soluta commodi, facere sunt ut voluptas, ad molestias molestiae praesentium reprehenderit libero minima. Reprehenderit deserunt odit dolorum? Animi at reiciendis explicabo, iure aut repellendus similique odit corrupti repellat beatae totam quos dolor illum est dicta cupiditate porro aliquid. Quam corporis quo sed, culpa totam porro! Sed, laudantium. Excepturi, impedit ad rem, minus aspernatur perspiciatis quasi unde saepe maxime doloremque rerum nisi sequi.</p>
+  </div>
+
+  <footer class="footer-container">
+    <div class="footer-container">
+      <h2>©2023 Tzu Chi corp.</h2>
     </div>
-   </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
-<!-- </html> <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form> -->
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
